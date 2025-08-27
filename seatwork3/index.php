@@ -10,6 +10,8 @@ if ($n == $random) {
   return "white";
 }
 }
+
+if(isset($_POST['btnSave'])){}
 ?>
 
 <!DOCTYPE html>
