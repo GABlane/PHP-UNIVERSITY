@@ -1,10 +1,18 @@
 <?php
-$server="localhost";
-$database="cs3a";
-$user="root";
-$pass="";
-$conn = new mysqli($server,$user,$pass,$database);
-if($conn->connect_error){
-  die('Connection Failed: '. $conn->connect_error);
+// Database configuration
+$host = "localhost";
+$username = "root";
+$password = "";
+$database = "personal_data_db";
+
+// Create connection
+$conn = new mysqli($host, $username, $password, $database);
+
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
 }
- ?>
+
+// Set charset to utf8
+$conn->set_charset("utf8");
+?>
