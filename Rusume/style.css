@@ -1,0 +1,210 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #000000 0%, #000000 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        header {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+
+        .header img {
+            height: 50px;
+            width: auto;
+        }
+
+        .header li {
+            list-style: none;
+            display: inline-block;
+            padding: 10px 20px;
+            background: #000000;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .header li:hover {
+            background: #100f11;
+            transform: translateY(-2px);
+        }
+
+        .box {
+            background: white;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .Resume {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+
+        #PROFILE {
+            flex-shrink: 0;
+        }
+
+        #PROFILE img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #000000;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .container {
+            flex: 1;
+            min-width: 250px;
+        }
+
+        .item-name h1 {
+            color: #333;
+            font-size: 28px;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+
+        .item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin: 10px 0;
+            color: #555;
+            font-size: 15px;
+        }
+
+        .item .material-symbols-outlined {
+            color: #030407;
+            font-size: 20px;
+        }
+
+        .line {
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(to right, #000000, #000000);
+            margin: 25px 0;
+            opacity: 0.3;
+        }
+
+        .second h1 {
+            color: #000000;
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .prof {
+            margin-bottom: 20px;
+            color: #444;
+            line-height: 1.6;
+        }
+
+        .prof p {
+            font-size: 15px;
+            text-align: justify;
+        }
+
+        .prof h3 {
+            color: #333;
+            font-size: 18px;
+            margin-top: 15px;
+            margin-bottom: 5px;
+        }
+
+        .prof h4 {
+            color: #666;
+            font-size: 14px;
+            font-weight: 400;
+            font-style: italic;
+        }
+
+        .prof h5 ul {
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+
+        .prof h5 ul li {
+            margin: 8px 0;
+            color: #555;
+            font-size: 15px;
+            font-weight: 400;
+        }
+
+        .prof1 {
+            margin-bottom: 20px;
+        }
+
+        .con {
+            background: #f8f9fa;
+            padding: 15px;
+            margin: 10px 0;
+            border-left: 4px solid #000000;
+            border-radius: 5px;
+            color: #555;
+            line-height: 1.6;
+            font-size: 14px;
+        }
+
+        footer {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 20px;
+            margin-top: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 900px;
+            margin: 30px auto 0;
+        }
+
+        footer h5 {
+            color: #555;
+            font-weight: 400;
+            font-size: 14px;
+        }
+
+        @media (max-width: 768px) {
+            .box {
+                padding: 25px;
+            }
+
+            .item-name h1 {
+                font-size: 22px;
+            }
+
+            #PROFILE img {
+                width: 120px;
+                height: 120px;
+            }
+
+            .Resume {
+                justify-content: center;
+                text-align: center;
+            }
+        }
