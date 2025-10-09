@@ -15,7 +15,7 @@
             </div>
             <div class="item">
                 <span class="material-symbols-outlined">mail</span>
-                johngabrielleofiangga@gmail.com
+                ofiangga.bscs@gmail.com
             </div>
             <div class="item">
                 <span class="material-symbols-outlined">location_on</span>
