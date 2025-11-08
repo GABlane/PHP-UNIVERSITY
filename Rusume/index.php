@@ -1,5 +1,14 @@
-<?php include('header.php'); ?>
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
 <div class="box">
     <div class="Resume">
         <div id="PROFILE">
@@ -73,5 +82,3 @@
         <div class="con">Mr. Cadmiel Jearim R. Abiera - Freelancer/Graphic Designer<br>Contact no: 0915-478-2072</div>    
     </div>
 </div>
-
-<?php include('footer.php'); ?>
